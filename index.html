@@ -39,7 +39,7 @@
       <input type="checkbox" id="gross">
       <input type="submit" value="submit!">
     </form>
-    <form>
+    <form onsubmit="myFn();">
       <h1>How tall are you?</h1>
       <select>
         <option value="short">Short</option>
@@ -49,7 +49,7 @@
       <input type="submit" value="submit!">
     </form>
     <form>
-      <h1>Are you coming back here? Create a Username!</h1>
+      <h1>Are you coming back here some time? Create a Username!</h1>
       <label for="username">Username</label>
       <input id="username" type="text" placeholder="ex: ThunderMeow" required>
       <label for="email">Email</label>
@@ -58,7 +58,36 @@
       <input id="password" type="password">
       <input type="submit" value="submit!">
     </form>
+    <form>
+      <h1>Let's choose some arbitrary numbers!</h1>
+      <input type="number"
+        min="0"
+        max="22"
+        step="3"
+        value="12">
+      <input type="range"
+        min="5"
+        max="50"
+        step="4"
+        value="7">
+      <input type="submit" value="submit!">
+    </form>
+    <form>
+      <h1>When's your Birthday?</h1>
+      <label for="date">Date</label>
+      <input id="date" type="date">
+      <label for="time">Time</label>
+      <input type="time" id="time">
+      <input type="submit" value="submit!">
+    </form>
+    <form>
+      <h1>Now this is just cool...</h1>
+      <label for="colorpick">What's really your favorite color?</label>
+      <input type="color" value="#00898e" id="colorpick">
+      <input type="submit" value="submit!">
+    </form>
   <main>
-
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
