@@ -1,0 +1,37 @@
+body {
+  font-family: arial, sans-serif;
+  color: #424242;
+}
+
+form {
+  height: 100%;
+  width: 50%;
+  margin: auto;
+  margin-top: 10vh;
+  box-shadow: 10px 12px 6px #707070;
+  border: 1px solid #f6f6f6;
+}
+
+input, label, h2, textarea, select {
+  display: block;
+  width: 20rem;
+  margin: auto;
+}
+
+input[type="submit"] {
+  margin: 1.5rem auto;
+  background-color: #707070;
+  color: white;
+  padding: 10px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 1px 2px #A86565;
+  width: 90%;
+  margin: 1.5rem auto;
+}

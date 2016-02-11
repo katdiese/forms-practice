@@ -6,9 +6,58 @@
 </head>
 <body>
   <main>
-  <form class="text-form">
-    <input type="text" value="">
-  </form>
+    <form class="text-form">
+      <h1>Enough about us, how about you?</h1>
+      <label for="name">What's your name?</label>
+      <input type="text" id="name" placeholder="Type it here" autofocus>
+      <label for="story" cols="30">Background</label>
+      <textarea class="block" id="story" rows="15" placeholder="What's your story?"></textarea>
+      <label for="nothing">Warning!</label>
+      <input type="text" disabled id="nothing" value="You can't type here">
+      <label id="color">What's your favorite Color?</label>
+      <input type="text" id="color" placeholder="this is required" required>
+      <input type="submit" value="submit!">
+
+    </form>
+    <form>
+      <h1>What's your favorite animal out of these?</h1>
+      <label for="cats">Cats</label>
+      <input type="radio" id="cats" name="animals" checked>
+      <label for="dogs">Dogs</label>
+      <input type="radio" name="animals" id="dogs">
+      <label for="turtles">Turtles</label>
+      <input type="radio" name="animals" id="turtles">
+      <input type="submit" value="submit!">
+    </form>
+    <form>
+      <h1>Do you have a favorite food?</h1>
+      <label for="cheeseburger">Cheeseburgers</label>
+      <input type="checkbox" id="cheeseburger" checked>
+      <label for="pizza">Pizza</label>
+      <input type="checkbox" id="pizza">
+      <label for="gross">Gross Stuff</label>
+      <input type="checkbox" id="gross">
+      <input type="submit" value="submit!">
+    </form>
+    <form>
+      <h1>How tall are you?</h1>
+      <select>
+        <option value="short">Short</option>
+        <option value="normal" selected>Normal Height</option>
+        <option value="tall">Tall</option>
+      </select>
+      <input type="submit" value="submit!">
+    </form>
+    <form>
+      <h1>Are you coming back here? Create a Username!</h1>
+      <label for="username">Username</label>
+      <input id="username" type="text" placeholder="ex: ThunderMeow" required>
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="you@somewhere.com" required>
+      <label for="password">Password</label>
+      <input id="password" type="password">
+      <input type="submit" value="submit!">
+    </form>
   <main>
 
 </body>
